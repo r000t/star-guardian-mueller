@@ -1,7 +1,7 @@
 var exprs = [
   [/\bspecial counsel\b/g, "star guardian"],
-  [/\beSpecial Counsel\b/g, "Star Guardian"],
-  [/\bESpecial-Counsel\b/g, "Star-Guardian"],
+  [/\bSpecial Counsel\b/g, "Star Guardian"],
+  [/\bSpecial-Counsel\b/g, "Star-Guardian"],
 ]
 
 function replaceTextInNode(node) {
