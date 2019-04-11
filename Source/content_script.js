@@ -1,10 +1,7 @@
 var exprs = [
-  [/\bEsports\b/g, "Esporks"],
-  [/\beSports\b/g, "eSporks"],
-  [/\bESporks\b/g, "ESporks"],
-  [/\besports\b/g, "esporks"],
-  [/\bESPORTS\b/g, "ESPORKS"],
-  [/\be-sports\b/g, "e-sporks"]
+  [/\bspecial counsel\b/g, "star guardian"],
+  [/\beSpecial Counsel\b/g, "Star Guardian"],
+  [/\bESpecial-Counsel\b/g, "Star-Guardian"],
 ]
 
 function replaceTextInNode(node) {
